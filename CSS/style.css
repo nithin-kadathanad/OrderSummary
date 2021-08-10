@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+}
+.Background{
+  width: 1440px;
+  position: relative;
+  background: hsl(225, 100%, 94%);
+}
+.Background-Top{
+  height: 400px;
+  width: 1440px;
+}
+.Background-Down{
+  height: 450px;
+  width: 1440px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px; text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+h1{
+  color: hsl(223, 47%, 23%);
+}
+p{
+  margin: 6% 17%;
+}
+.Order-summery{
+  position: absolute;
+  width: 450px;
+  height: 650px;
+  background: white;
+  top: 100px;
+  left: 500px;
+  border-radius: 22px;
+}
+.hero-img{
+  border-radius: 22px 22px 0 0;
+}
+.illustration-white{
+}
+.Music{
+  padding: 4%;
+  width: 70%;
+  background: hsl(225, 100%, 98%);
+  margin: auto;
+  border-radius: 15px;
+}
+.Table-In{
+  padding-left: 15%;
+  margin: auto;
+}
+.Change{
+  padding-left: 50%;
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+}
+.Change1:hover{
+color: hsl(223, 47%, 23%);
+}
+.Annual{
+  color: hsl(223, 47%, 23%);
+}
+.Payment {
+  background: #4d34d9;
+  background-image: -webkit-linear-gradient(top, #4d34d9, #472bb8);
+  background-image: -moz-linear-gradient(top, #4d34d9, #472bb8);
+  background-image: -ms-linear-gradient(top, #4d34d9, #472bb8);
+  background-image: -o-linear-gradient(top, #4d34d9, #472bb8);
+  background-image: linear-gradient(to bottom, #4d34d9, #472bb8);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 15px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 16px 15px #bdbdb0;
+  -moz-box-shadow: 0px 16px 15px #bdbdb0;
+  box-shadow: 0px 16px 15px #bdbdb0;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 2px 50px 2px 50px;
+  text-decoration: none;
+  margin: 5% 11%;
+}
+
+.Payment:hover {
+  background: grey;
+  background-image: -webkit-linear-gradient(top, #3c46fc, #3934d9);
+  background-image: -moz-linear-gradient(top, #3c46fc, #3934d9);
+  background-image: -ms-linear-gradient(top, #3c46fc, #3934d9);
+  background-image: -o-linear-gradient(top, #3c46fc, #3934d9);
+  background-image: linear-gradient(to bottom, #3c46fc, #3934d9);
+  text-decoration: none;
+}
+.Cancel{
+  font-size: 12px;
+}
+.Cancel:hover{
+color: hsl(223, 47%, 23%);
+}
+
+
+.attribution { font-size: 11px; text-align: center;
+background: hsl(225, 100%, 94%);
+width: 1440px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
